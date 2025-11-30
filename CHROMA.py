@@ -17,7 +17,7 @@ chroma_logger.setLevel(logging.DEBUG)
 # 异常捕获包装
 try:
     embeddingUtils = DashScopeEmbeddings(
-        dashscope_api_key="sk-52265888c7114eec8f039899b5759b6d",
+        dashscope_api_key="sk-xx",
         model="text-embedding-v4"
     )
 

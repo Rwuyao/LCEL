@@ -8,14 +8,14 @@ from langchain_openai import OpenAIEmbeddings
 from langchain_community.embeddings import DashScopeEmbeddings
 
 embedding = DashScopeEmbeddings(
-    dashscope_api_key="sk-52265888c7114eec8f039899b5759b6d",
+    dashscope_api_key="sk-xx",
     model="text-embedding-v4"
 )
 
 # 初始化 ChatOpenAI 模型，指定使用的模型为 'gpt-4o-mini'
 model = ChatOpenAI(
     model="deepseek-chat",
-    openai_api_key="sk-9f4b5c77f02d4b22a23c4a4aa4a10054",
+    openai_api_key="sk-xx",
     openai_api_base="https://api.deepseek.com"
 )
 
